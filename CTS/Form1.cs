@@ -44,7 +44,7 @@ namespace CTS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //
+            
         }
 
         // Обработчик события для перемещения окна
