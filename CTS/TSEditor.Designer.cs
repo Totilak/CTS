@@ -114,6 +114,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.редактированиеТехническогоЗаданияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBox3_2_1_21 = new System.Windows.Forms.TextBox();
+            this.btnaddlist3_2_1_2 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -188,7 +190,7 @@
             this.textBox1_2.Name = "textBox1_2";
             this.textBox1_2.Size = new System.Drawing.Size(991, 29);
             this.textBox1_2.TabIndex = 22;
-            this.textBox1_2.Text = "1.2 <Если поле не ипользуется, оставить пустым>";
+            this.textBox1_2.Text = "1.2 <Если поле не используется, оставить пустым>";
             // 
             // label1_7_4
             // 
@@ -411,6 +413,8 @@
             this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox5.BackColor = System.Drawing.Color.White;
+            this.groupBox5.Controls.Add(this.btnaddlist3_2_1_2);
+            this.groupBox5.Controls.Add(this.textBox3_2_1_21);
             this.groupBox5.Controls.Add(this.label3_8_2_3);
             this.groupBox5.Controls.Add(this.textBox7);
             this.groupBox5.Controls.Add(this.label3_8_2_2);
@@ -480,36 +484,39 @@
             // 
             this.label3_8_2_3.AutoSize = true;
             this.label3_8_2_3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_8_2_3.Location = new System.Drawing.Point(45, 4734);
+            this.label3_8_2_3.Location = new System.Drawing.Point(45, 4950);
             this.label3_8_2_3.Name = "label3_8_2_3";
             this.label3_8_2_3.Size = new System.Drawing.Size(61, 21);
             this.label3_8_2_3.TabIndex = 63;
             this.label3_8_2_3.Text = "3.8.2.3";
+            this.label3_8_2_3.Click += new System.EventHandler(this.label3_8_2_3_Click);
             // 
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox7.Location = new System.Drawing.Point(111, 4731);
+            this.textBox7.Location = new System.Drawing.Point(111, 4947);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(929, 214);
             this.textBox7.TabIndex = 62;
             this.textBox7.Text = resources.GetString("textBox7.Text");
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // label3_8_2_2
             // 
             this.label3_8_2_2.AutoSize = true;
             this.label3_8_2_2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_8_2_2.Location = new System.Drawing.Point(45, 4604);
+            this.label3_8_2_2.Location = new System.Drawing.Point(45, 4820);
             this.label3_8_2_2.Name = "label3_8_2_2";
             this.label3_8_2_2.Size = new System.Drawing.Size(61, 21);
             this.label3_8_2_2.TabIndex = 61;
             this.label3_8_2_2.Text = "3.8.2.2";
+            this.label3_8_2_2.Click += new System.EventHandler(this.label3_8_2_2_Click);
             // 
             // textBox3_8_2_2
             // 
             this.textBox3_8_2_2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_8_2_2.Location = new System.Drawing.Point(111, 4601);
+            this.textBox3_8_2_2.Location = new System.Drawing.Point(111, 4817);
             this.textBox3_8_2_2.Multiline = true;
             this.textBox3_8_2_2.Name = "textBox3_8_2_2";
             this.textBox3_8_2_2.Size = new System.Drawing.Size(929, 106);
@@ -517,72 +524,79 @@
             this.textBox3_8_2_2.Text = "Терминология в области метрологического обеспечения должна соответствовать РМГ29-" +
     "2013. Единицы измерения физических величин их обозначение и написание должны соо" +
     "тветствовать ГОСТ 8.417-2002.";
+            this.textBox3_8_2_2.TextChanged += new System.EventHandler(this.textBox3_8_2_2_TextChanged);
             // 
             // label3_8_2_1
             // 
             this.label3_8_2_1.AutoSize = true;
             this.label3_8_2_1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_8_2_1.Location = new System.Drawing.Point(45, 4473);
+            this.label3_8_2_1.Location = new System.Drawing.Point(45, 4689);
             this.label3_8_2_1.Name = "label3_8_2_1";
             this.label3_8_2_1.Size = new System.Drawing.Size(61, 21);
             this.label3_8_2_1.TabIndex = 59;
             this.label3_8_2_1.Text = "3.8.2.1";
+            this.label3_8_2_1.Click += new System.EventHandler(this.label3_8_2_1_Click);
             // 
             // textBox3_8_2_1
             // 
             this.textBox3_8_2_1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_8_2_1.Location = new System.Drawing.Point(111, 4470);
+            this.textBox3_8_2_1.Location = new System.Drawing.Point(111, 4686);
             this.textBox3_8_2_1.Multiline = true;
             this.textBox3_8_2_1.Name = "textBox3_8_2_1";
             this.textBox3_8_2_1.Size = new System.Drawing.Size(929, 106);
             this.textBox3_8_2_1.TabIndex = 58;
             this.textBox3_8_2_1.Text = "Метрологическое обеспечение должно соответствовать требованиям ОТТ1.1.7-89, ОТТ6." +
     "1.52-88, ГОСТРВ1.1-96 и ГОСТ РВ20.39.309-98. ";
+            this.textBox3_8_2_1.TextChanged += new System.EventHandler(this.textBox3_8_2_1_TextChanged);
             // 
             // label3_8_2
             // 
             this.label3_8_2.AutoSize = true;
             this.label3_8_2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_8_2.Location = new System.Drawing.Point(45, 4442);
+            this.label3_8_2.Location = new System.Drawing.Point(45, 4658);
             this.label3_8_2.Name = "label3_8_2";
             this.label3_8_2.Size = new System.Drawing.Size(463, 22);
             this.label3_8_2.TabIndex = 57;
             this.label3_8_2.Text = "3.8.2 Требования к метрологическому обеспечению";
+            this.label3_8_2.Click += new System.EventHandler(this.label3_8_2_Click);
             // 
             // textBox3_8_1
             // 
             this.textBox3_8_1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_8_1.Location = new System.Drawing.Point(49, 4391);
+            this.textBox3_8_1.Location = new System.Drawing.Point(49, 4607);
             this.textBox3_8_1.Name = "textBox3_8_1";
             this.textBox3_8_1.Size = new System.Drawing.Size(991, 29);
             this.textBox3_8_1.TabIndex = 56;
             this.textBox3_8_1.Text = "Рабочая конструкторская документация (РКД) должна разрабатываться в соответствии " +
     "с ЕСКД, ЕСПД.";
+            this.textBox3_8_1.TextChanged += new System.EventHandler(this.textBox3_8_1_TextChanged);
             // 
             // label3_8_1
             // 
             this.label3_8_1.AutoSize = true;
             this.label3_8_1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_8_1.Location = new System.Drawing.Point(45, 4360);
+            this.label3_8_1.Location = new System.Drawing.Point(45, 4576);
             this.label3_8_1.Name = "label3_8_1";
             this.label3_8_1.Size = new System.Drawing.Size(531, 22);
             this.label3_8_1.TabIndex = 55;
             this.label3_8_1.Text = "3.8.1 Требования к нормативно-техническому обеспечению";
+            this.label3_8_1.Click += new System.EventHandler(this.label3_8_1_Click);
             // 
             // label3_8
             // 
             this.label3_8.AutoSize = true;
             this.label3_8.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_8.Location = new System.Drawing.Point(45, 4318);
+            this.label3_8.Location = new System.Drawing.Point(45, 4534);
             this.label3_8.Name = "label3_8";
             this.label3_8.Size = new System.Drawing.Size(330, 22);
             this.label3_8.TabIndex = 54;
             this.label3_8.Text = "3.8 требования к видам обеспечения";
+            this.label3_8.Click += new System.EventHandler(this.label3_8_Click);
             // 
             // textBox3_7
             // 
             this.textBox3_7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_7.Location = new System.Drawing.Point(49, 4260);
+            this.textBox3_7.Location = new System.Drawing.Point(49, 4483);
             this.textBox3_7.Name = "textBox3_7";
             this.textBox3_7.Size = new System.Drawing.Size(991, 29);
             this.textBox3_7.TabIndex = 53;
@@ -591,135 +605,149 @@
             // 
             this.label3_7.AutoSize = true;
             this.label3_7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_7.Location = new System.Drawing.Point(45, 4230);
+            this.label3_7.Location = new System.Drawing.Point(45, 4446);
             this.label3_7.Name = "label3_7";
             this.label3_7.Size = new System.Drawing.Size(244, 22);
             this.label3_7.TabIndex = 51;
             this.label3_7.Text = "3.7 Гарантии изготовителя";
+            this.label3_7.Click += new System.EventHandler(this.label3_7_Click);
             // 
             // textBox3_6
             // 
             this.textBox3_6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_6.Location = new System.Drawing.Point(49, 4153);
+            this.textBox3_6.Location = new System.Drawing.Point(49, 4369);
             this.textBox3_6.Name = "textBox3_6";
             this.textBox3_6.Size = new System.Drawing.Size(991, 29);
             this.textBox3_6.TabIndex = 50;
+            this.textBox3_6.TextChanged += new System.EventHandler(this.textBox3_6_TextChanged);
             // 
             // label3_6
             // 
             this.label3_6.AutoSize = true;
             this.label3_6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_6.Location = new System.Drawing.Point(45, 4123);
+            this.label3_6.Location = new System.Drawing.Point(45, 4339);
             this.label3_6.Name = "label3_6";
             this.label3_6.Size = new System.Drawing.Size(275, 22);
             this.label3_6.TabIndex = 48;
             this.label3_6.Text = "3.6 Указания по эксплуатации";
+            this.label3_6.Click += new System.EventHandler(this.label3_6_Click);
             // 
             // textBox3_5
             // 
             this.textBox3_5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_5.Location = new System.Drawing.Point(49, 4062);
+            this.textBox3_5.Location = new System.Drawing.Point(49, 4278);
             this.textBox3_5.Name = "textBox3_5";
             this.textBox3_5.Size = new System.Drawing.Size(991, 29);
             this.textBox3_5.TabIndex = 47;
             this.textBox3_5.Text = "Дополнительные требования не предъявляются.";
+            this.textBox3_5.TextChanged += new System.EventHandler(this.textBox3_5_TextChanged);
             // 
             // label3_5
             // 
             this.label3_5.AutoSize = true;
             this.label3_5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_5.Location = new System.Drawing.Point(45, 4026);
+            this.label3_5.Location = new System.Drawing.Point(45, 4242);
             this.label3_5.Name = "label3_5";
             this.label3_5.Size = new System.Drawing.Size(485, 22);
             this.label3_5.TabIndex = 45;
             this.label3_5.Text = "3.5 Правила приемки и методы контроля (испытаний)";
+            this.label3_5.Click += new System.EventHandler(this.label3_5_Click);
             // 
             // textBox3_4
             // 
             this.textBox3_4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_4.Location = new System.Drawing.Point(49, 3968);
+            this.textBox3_4.Location = new System.Drawing.Point(49, 4184);
             this.textBox3_4.Name = "textBox3_4";
             this.textBox3_4.Size = new System.Drawing.Size(991, 29);
             this.textBox3_4.TabIndex = 44;
+            this.textBox3_4.TextChanged += new System.EventHandler(this.textBox3_4_TextChanged);
             // 
             // label3_4
             // 
             this.label3_4.AutoSize = true;
             this.label3_4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_4.Location = new System.Drawing.Point(42, 3937);
+            this.label3_4.Location = new System.Drawing.Point(42, 4153);
             this.label3_4.Name = "label3_4";
             this.label3_4.Size = new System.Drawing.Size(389, 22);
             this.label3_4.TabIndex = 42;
             this.label3_4.Text = "3.4 Требования охраны окружающей среды";
+            this.label3_4.Click += new System.EventHandler(this.label3_4_Click);
             // 
             // textBox3_3
             // 
             this.textBox3_3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_3.Location = new System.Drawing.Point(49, 3861);
+            this.textBox3_3.Location = new System.Drawing.Point(49, 4077);
             this.textBox3_3.Name = "textBox3_3";
             this.textBox3_3.Size = new System.Drawing.Size(991, 29);
             this.textBox3_3.TabIndex = 41;
+            this.textBox3_3.TextChanged += new System.EventHandler(this.textBox3_3_TextChanged);
             // 
             // label3_3
             // 
             this.label3_3.AutoSize = true;
             this.label3_3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_3.Location = new System.Drawing.Point(42, 3830);
+            this.label3_3.Location = new System.Drawing.Point(42, 4046);
             this.label3_3.Name = "label3_3";
             this.label3_3.Size = new System.Drawing.Size(265, 22);
             this.label3_3.TabIndex = 39;
             this.label3_3.Text = "3.3 Требования безопасности";
+            this.label3_3.Click += new System.EventHandler(this.label3_3_Click);
             // 
             // textBox3_2_5
             // 
             this.textBox3_2_5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_2_5.Location = new System.Drawing.Point(49, 3731);
+            this.textBox3_2_5.Location = new System.Drawing.Point(49, 3947);
             this.textBox3_2_5.Name = "textBox3_2_5";
             this.textBox3_2_5.Size = new System.Drawing.Size(991, 29);
             this.textBox3_2_5.TabIndex = 38;
+            this.textBox3_2_5.TextChanged += new System.EventHandler(this.textBox3_2_5_TextChanged);
             // 
             // label3_2_5
             // 
             this.label3_2_5.AutoSize = true;
             this.label3_2_5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_2_5.Location = new System.Drawing.Point(45, 3701);
+            this.label3_2_5.Location = new System.Drawing.Point(45, 3917);
             this.label3_2_5.Name = "label3_2_5";
             this.label3_2_5.Size = new System.Drawing.Size(140, 22);
             this.label3_2_5.TabIndex = 36;
             this.label3_2_5.Text = "3.2.5 Упаковка";
+            this.label3_2_5.Click += new System.EventHandler(this.label3_2_5_Click);
             // 
             // textBox3_2_4
             // 
             this.textBox3_2_4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_2_4.Location = new System.Drawing.Point(49, 3643);
+            this.textBox3_2_4.Location = new System.Drawing.Point(49, 3859);
             this.textBox3_2_4.Name = "textBox3_2_4";
             this.textBox3_2_4.Size = new System.Drawing.Size(991, 29);
             this.textBox3_2_4.TabIndex = 35;
+            this.textBox3_2_4.TextChanged += new System.EventHandler(this.textBox3_2_4_TextChanged);
             // 
             // label3_2_4
             // 
             this.label3_2_4.AutoSize = true;
             this.label3_2_4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_2_4.Location = new System.Drawing.Point(45, 3613);
+            this.label3_2_4.Location = new System.Drawing.Point(45, 3829);
             this.label3_2_4.Name = "label3_2_4";
             this.label3_2_4.Size = new System.Drawing.Size(166, 22);
             this.label3_2_4.TabIndex = 33;
             this.label3_2_4.Text = "3.2.4 Маркировка";
+            this.label3_2_4.Click += new System.EventHandler(this.label3_2_4_Click);
             // 
             // label3_2_3_1
             // 
             this.label3_2_3_1.AutoSize = true;
             this.label3_2_3_1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_2_3_1.Location = new System.Drawing.Point(45, 2375);
+            this.label3_2_3_1.Location = new System.Drawing.Point(45, 2591);
             this.label3_2_3_1.Name = "label3_2_3_1";
             this.label3_2_3_1.Size = new System.Drawing.Size(61, 21);
             this.label3_2_3_1.TabIndex = 32;
             this.label3_2_3_1.Text = "3.2.3.1";
+            this.label3_2_3_1.Click += new System.EventHandler(this.label3_2_3_1_Click);
             // 
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox6.Location = new System.Drawing.Point(49, 2421);
+            this.textBox6.Location = new System.Drawing.Point(49, 2637);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(991, 1138);
@@ -732,142 +760,156 @@
             // 
             this.label3_2_3.AutoSize = true;
             this.label3_2_3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_2_3.Location = new System.Drawing.Point(45, 2336);
+            this.label3_2_3.Location = new System.Drawing.Point(45, 2552);
             this.label3_2_3.Name = "label3_2_3";
             this.label3_2_3.Size = new System.Drawing.Size(191, 22);
             this.label3_2_3.TabIndex = 29;
             this.label3_2_3.Text = "3.2.3 Комплектность";
+            this.label3_2_3.Click += new System.EventHandler(this.label3_2_3_Click);
             // 
             // textBox3_2_2_3
             // 
             this.textBox3_2_2_3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_2_2_3.Location = new System.Drawing.Point(76, 2154);
+            this.textBox3_2_2_3.Location = new System.Drawing.Point(76, 2370);
             this.textBox3_2_2_3.Multiline = true;
             this.textBox3_2_2_3.Name = "textBox3_2_2_3";
             this.textBox3_2_2_3.Size = new System.Drawing.Size(964, 116);
             this.textBox3_2_2_3.TabIndex = 28;
             this.textBox3_2_2_3.Text = "При разработке схем должны применяться судовые безгалогенные и огнестойкие кабели" +
     ".";
+            this.textBox3_2_2_3.TextChanged += new System.EventHandler(this.textBox3_2_2_3_TextChanged);
             // 
             // label3_2_2_3
             // 
             this.label3_2_2_3.AutoSize = true;
             this.label3_2_2_3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_2_2_3.Location = new System.Drawing.Point(72, 2121);
+            this.label3_2_2_3.Location = new System.Drawing.Point(72, 2337);
             this.label3_2_2_3.Name = "label3_2_2_3";
             this.label3_2_2_3.Size = new System.Drawing.Size(61, 21);
             this.label3_2_2_3.TabIndex = 27;
             this.label3_2_2_3.Text = "3.2.2.3";
+            this.label3_2_2_3.Click += new System.EventHandler(this.label3_2_2_3_Click);
             // 
             // textBox3_2_2_2
             // 
             this.textBox3_2_2_2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_2_2_2.Location = new System.Drawing.Point(76, 1965);
+            this.textBox3_2_2_2.Location = new System.Drawing.Point(76, 2181);
             this.textBox3_2_2_2.Multiline = true;
             this.textBox3_2_2_2.Name = "textBox3_2_2_2";
             this.textBox3_2_2_2.Size = new System.Drawing.Size(964, 116);
             this.textBox3_2_2_2.TabIndex = 26;
             this.textBox3_2_2_2.Text = resources.GetString("textBox3_2_2_2.Text");
+            this.textBox3_2_2_2.TextChanged += new System.EventHandler(this.textBox3_2_2_2_TextChanged);
             // 
             // label3_2_2_2
             // 
             this.label3_2_2_2.AutoSize = true;
             this.label3_2_2_2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_2_2_2.Location = new System.Drawing.Point(72, 1932);
+            this.label3_2_2_2.Location = new System.Drawing.Point(72, 2148);
             this.label3_2_2_2.Name = "label3_2_2_2";
             this.label3_2_2_2.Size = new System.Drawing.Size(61, 21);
             this.label3_2_2_2.TabIndex = 25;
             this.label3_2_2_2.Text = "3.2.2.2";
+            this.label3_2_2_2.Click += new System.EventHandler(this.label3_2_2_2_Click);
             // 
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox5.Location = new System.Drawing.Point(76, 1780);
+            this.textBox5.Location = new System.Drawing.Point(76, 1996);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(964, 116);
             this.textBox5.TabIndex = 24;
             this.textBox5.Text = resources.GetString("textBox5.Text");
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // label3_2_2_1
             // 
             this.label3_2_2_1.AutoSize = true;
             this.label3_2_2_1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_2_2_1.Location = new System.Drawing.Point(72, 1747);
+            this.label3_2_2_1.Location = new System.Drawing.Point(72, 1963);
             this.label3_2_2_1.Name = "label3_2_2_1";
             this.label3_2_2_1.Size = new System.Drawing.Size(61, 21);
             this.label3_2_2_1.TabIndex = 23;
             this.label3_2_2_1.Text = "3.2.2.1";
+            this.label3_2_2_1.Click += new System.EventHandler(this.label3_2_2_1_Click);
             // 
             // label3_2_2
             // 
             this.label3_2_2.AutoSize = true;
             this.label3_2_2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_2_2.Location = new System.Drawing.Point(72, 1711);
+            this.label3_2_2.Location = new System.Drawing.Point(72, 1927);
             this.label3_2_2.Name = "label3_2_2";
             this.label3_2_2.Size = new System.Drawing.Size(543, 22);
             this.label3_2_2.TabIndex = 22;
             this.label3_2_2.Text = "3.2.2 Требования к сырью, материалам, покупным изделиям";
+            this.label3_2_2.Click += new System.EventHandler(this.label3_2_2_Click);
             // 
             // textBox3_2_1_4
             // 
             this.textBox3_2_1_4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_2_1_4.Location = new System.Drawing.Point(127, 1519);
+            this.textBox3_2_1_4.Location = new System.Drawing.Point(127, 1735);
             this.textBox3_2_1_4.Multiline = true;
             this.textBox3_2_1_4.Name = "textBox3_2_1_4";
             this.textBox3_2_1_4.Size = new System.Drawing.Size(913, 131);
             this.textBox3_2_1_4.TabIndex = 21;
+            this.textBox3_2_1_4.TextChanged += new System.EventHandler(this.textBox3_2_1_4_TextChanged);
             // 
             // label3_2_1_4
             // 
             this.label3_2_1_4.AutoSize = true;
             this.label3_2_1_4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_2_1_4.Location = new System.Drawing.Point(125, 1486);
+            this.label3_2_1_4.Location = new System.Drawing.Point(125, 1702);
             this.label3_2_1_4.Name = "label3_2_1_4";
             this.label3_2_1_4.Size = new System.Drawing.Size(61, 21);
             this.label3_2_1_4.TabIndex = 20;
             this.label3_2_1_4.Text = "3.2.1.4";
+            this.label3_2_1_4.Click += new System.EventHandler(this.label3_2_1_4_Click);
             // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(97, 1261);
+            this.textBox4.Location = new System.Drawing.Point(97, 1477);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(943, 197);
             this.textBox4.TabIndex = 19;
             this.textBox4.Text = resources.GetString("textBox4.Text");
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label3_2_1_3
             // 
             this.label3_2_1_3.AutoSize = true;
             this.label3_2_1_3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_2_1_3.Location = new System.Drawing.Point(95, 1228);
+            this.label3_2_1_3.Location = new System.Drawing.Point(95, 1444);
             this.label3_2_1_3.Name = "label3_2_1_3";
             this.label3_2_1_3.Size = new System.Drawing.Size(61, 21);
             this.label3_2_1_3.TabIndex = 18;
             this.label3_2_1_3.Text = "3.2.1.3";
+            this.label3_2_1_3.Click += new System.EventHandler(this.label3_2_1_3_Click);
             // 
             // textBox3_2_1_2_1
             // 
             this.textBox3_2_1_2_1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3_2_1_2_1.Location = new System.Drawing.Point(76, 1009);
+            this.textBox3_2_1_2_1.Location = new System.Drawing.Point(76, 1225);
             this.textBox3_2_1_2_1.Multiline = true;
             this.textBox3_2_1_2_1.Name = "textBox3_2_1_2_1";
             this.textBox3_2_1_2_1.Size = new System.Drawing.Size(964, 197);
             this.textBox3_2_1_2_1.TabIndex = 17;
             this.textBox3_2_1_2_1.Text = "Все связи с сопрягаемыми системами должны быть оформлены протоколами сопряжения, " +
     "разработанными в соответствии с < >.\r\n";
+            this.textBox3_2_1_2_1.TextChanged += new System.EventHandler(this.textBox3_2_1_2_1_TextChanged);
             // 
             // label3_2_1_2_1
             // 
             this.label3_2_1_2_1.AutoSize = true;
             this.label3_2_1_2_1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3_2_1_2_1.Location = new System.Drawing.Point(72, 975);
+            this.label3_2_1_2_1.Location = new System.Drawing.Point(72, 1191);
             this.label3_2_1_2_1.Name = "label3_2_1_2_1";
             this.label3_2_1_2_1.Size = new System.Drawing.Size(80, 21);
             this.label3_2_1_2_1.TabIndex = 16;
             this.label3_2_1_2_1.Text = "3.2.1.2.1 ";
+            this.label3_2_1_2_1.Click += new System.EventHandler(this.label3_2_1_2_1_Click);
             // 
             // textBox3_2_1_2
             // 
@@ -875,11 +917,11 @@
             this.textBox3_2_1_2.Location = new System.Drawing.Point(76, 752);
             this.textBox3_2_1_2.Multiline = true;
             this.textBox3_2_1_2.Name = "textBox3_2_1_2";
-            this.textBox3_2_1_2.Size = new System.Drawing.Size(964, 78);
+            this.textBox3_2_1_2.Size = new System.Drawing.Size(964, 82);
             this.textBox3_2_1_2.TabIndex = 15;
             this.textBox3_2_1_2.Text = "Должно быть обеспечено информационно - техническое сопряжение комплекса < >со сле" +
     "дующими радиоэлектронными средствами и корабельными системами заказа проекта  < " +
-    ">:\r\n<Список>";
+    ">:";
             // 
             // label3_2_1_2
             // 
@@ -1060,6 +1102,25 @@
             this.редактированиеТехническогоЗаданияToolStripMenuItem.Text = "Редактирование технического задания";
             this.редактированиеТехническогоЗаданияToolStripMenuItem.ToolTipText = "Название формы";
             // 
+            // textBox3_2_1_21
+            // 
+            this.textBox3_2_1_21.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox3_2_1_21.Location = new System.Drawing.Point(76, 840);
+            this.textBox3_2_1_21.Multiline = true;
+            this.textBox3_2_1_21.Name = "textBox3_2_1_21";
+            this.textBox3_2_1_21.Size = new System.Drawing.Size(964, 276);
+            this.textBox3_2_1_21.TabIndex = 64;
+            // 
+            // btnaddlist3_2_1_2
+            // 
+            this.btnaddlist3_2_1_2.Location = new System.Drawing.Point(903, 1122);
+            this.btnaddlist3_2_1_2.Name = "btnaddlist3_2_1_2";
+            this.btnaddlist3_2_1_2.Size = new System.Drawing.Size(137, 40);
+            this.btnaddlist3_2_1_2.TabIndex = 65;
+            this.btnaddlist3_2_1_2.Text = "Добавить";
+            this.btnaddlist3_2_1_2.UseVisualStyleBackColor = true;
+            this.btnaddlist3_2_1_2.Click += new System.EventHandler(this.btnaddlist3_2_1_2_Click);
+            // 
             // TSEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1179,5 +1240,7 @@
         private System.Windows.Forms.Label label3_8_2_3;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox1_2;
+        private System.Windows.Forms.TextBox textBox3_2_1_21;
+        private System.Windows.Forms.Button btnaddlist3_2_1_2;
     }
 }

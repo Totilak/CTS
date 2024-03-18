@@ -106,7 +106,202 @@ namespace CTS
 
         private void textBox3_1_2_TextChanged(object sender, EventArgs e)
         {
-            textBox3_2_1_2.Text = ($"Должно быть обеспечено информационно - техническое сопряжение комплекса {textBox3_1_2.Text} со следующими радиоэлектронными средствами и корабельными системами заказа проекта  < >: "+ Environment.NewLine+ "< Список > ");
+            textBox3_2_1_2.Text = ($"Должно быть обеспечено информационно - техническое сопряжение комплекса {textBox3_1_2.Text} со следующими радиоэлектронными средствами и корабельными системами заказа проекта  < >: ");
+        }
+
+        private void label3_2_1_3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_2_1_2_1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_2_1_2_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_2_1_4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_2_1_4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_2_2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_2_2_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_2_2_2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_2_2_2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_2_2_3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_2_2_3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_2_3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_2_3_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_2_4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_2_4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_2_5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_2_5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_8_1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_8_2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_8_2_1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_8_2_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_8_2_2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_8_2_2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_8_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_8_2_3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnaddlist3_2_1_2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
