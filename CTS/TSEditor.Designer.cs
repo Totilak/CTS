@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TSEditor));
             this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox1_2 = new System.Windows.Forms.TextBox();
             this.label1_7_4 = new System.Windows.Forms.Label();
             this.comboBox1_7_3 = new System.Windows.Forms.ComboBox();
@@ -50,11 +50,11 @@
             this.label1_3 = new System.Windows.Forms.Label();
             this.textBox1_1 = new System.Windows.Forms.TextBox();
             this.label1_1 = new System.Windows.Forms.Label();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox2_1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label3_8_2_3 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label3_8_2_2 = new System.Windows.Forms.Label();
@@ -116,11 +116,32 @@
             this.редактированиеТехническогоЗаданияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBox3_2_1_21 = new System.Windows.Forms.TextBox();
             this.btnaddlist3_2_1_2 = new System.Windows.Forms.Button();
+            this.textBox3_end = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4_1 = new System.Windows.Forms.Label();
+            this.textBox4_1 = new System.Windows.Forms.TextBox();
+            this.textBox4_2 = new System.Windows.Forms.TextBox();
+            this.label4_2 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.textBox5_1 = new System.Windows.Forms.TextBox();
+            this.label5_1 = new System.Windows.Forms.Label();
+            this.textBox51 = new System.Windows.Forms.TextBox();
+            this.label5_1_1 = new System.Windows.Forms.Label();
+            this.label5_1_2 = new System.Windows.Forms.Label();
+            this.textBox5_1_2 = new System.Windows.Forms.TextBox();
+            this.label5_1_3 = new System.Windows.Forms.Label();
+            this.textBox5_1_3 = new System.Windows.Forms.TextBox();
+            this.label5_end = new System.Windows.Forms.Label();
+            this.textBox5_end = new System.Windows.Forms.TextBox();
+            this.label4_end = new System.Windows.Forms.Label();
+            this.textBox4_end = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox5.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -142,46 +163,47 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.LightGray;
-            this.flowLayoutPanel1.Controls.Add(this.groupBox8);
-            this.flowLayoutPanel1.Controls.Add(this.groupBox7);
+            this.flowLayoutPanel1.Controls.Add(this.groupBox1);
+            this.flowLayoutPanel1.Controls.Add(this.groupBox2);
             this.flowLayoutPanel1.Controls.Add(this.groupBox6);
-            this.flowLayoutPanel1.Controls.Add(this.groupBox5);
+            this.flowLayoutPanel1.Controls.Add(this.groupBox3);
             this.flowLayoutPanel1.Controls.Add(this.groupBox4);
+            this.flowLayoutPanel1.Controls.Add(this.groupBox5);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 43);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1253, 776);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
-            // groupBox8
+            // groupBox1
             // 
-            this.groupBox8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox8.BackColor = System.Drawing.Color.White;
-            this.groupBox8.Controls.Add(this.textBox1_2);
-            this.groupBox8.Controls.Add(this.label1_7_4);
-            this.groupBox8.Controls.Add(this.comboBox1_7_3);
-            this.groupBox8.Controls.Add(this.label1_7_3);
-            this.groupBox8.Controls.Add(this.comboBox1_7_2);
-            this.groupBox8.Controls.Add(this.label1_7_2);
-            this.groupBox8.Controls.Add(this.comboBox1_7_1);
-            this.groupBox8.Controls.Add(this.label1_7_1);
-            this.groupBox8.Controls.Add(this.comboBox1_6);
-            this.groupBox8.Controls.Add(this.label1_6);
-            this.groupBox8.Controls.Add(this.comboBox1_5);
-            this.groupBox8.Controls.Add(this.label1_5);
-            this.groupBox8.Controls.Add(this.comboBox1_4);
-            this.groupBox8.Controls.Add(this.label1_4);
-            this.groupBox8.Controls.Add(this.textBox1_3);
-            this.groupBox8.Controls.Add(this.label1_3);
-            this.groupBox8.Controls.Add(this.textBox1_1);
-            this.groupBox8.Controls.Add(this.label1_1);
-            this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox8.Location = new System.Drawing.Point(3, 3);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(1211, 569);
-            this.groupBox8.TabIndex = 4;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "1 НАИМЕНОВАНИЕ РАБОТЫ, ОСНОВАНИЕ ДЛЯ ВЫПОЛНЕНИЯ, ИСПОЛНИТЕЛЬ";
+            this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.textBox1_2);
+            this.groupBox1.Controls.Add(this.label1_7_4);
+            this.groupBox1.Controls.Add(this.comboBox1_7_3);
+            this.groupBox1.Controls.Add(this.label1_7_3);
+            this.groupBox1.Controls.Add(this.comboBox1_7_2);
+            this.groupBox1.Controls.Add(this.label1_7_2);
+            this.groupBox1.Controls.Add(this.comboBox1_7_1);
+            this.groupBox1.Controls.Add(this.label1_7_1);
+            this.groupBox1.Controls.Add(this.comboBox1_6);
+            this.groupBox1.Controls.Add(this.label1_6);
+            this.groupBox1.Controls.Add(this.comboBox1_5);
+            this.groupBox1.Controls.Add(this.label1_5);
+            this.groupBox1.Controls.Add(this.comboBox1_4);
+            this.groupBox1.Controls.Add(this.label1_4);
+            this.groupBox1.Controls.Add(this.textBox1_3);
+            this.groupBox1.Controls.Add(this.label1_3);
+            this.groupBox1.Controls.Add(this.textBox1_1);
+            this.groupBox1.Controls.Add(this.label1_1);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBox1.Location = new System.Drawing.Point(3, 3);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(1211, 569);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "1 НАИМЕНОВАНИЕ РАБОТЫ, ОСНОВАНИЕ ДЛЯ ВЫПОЛНЕНИЯ, ИСПОЛНИТЕЛЬ";
             // 
             // textBox1_2
             // 
@@ -357,21 +379,21 @@
             this.label1_1.TabIndex = 0;
             this.label1_1.Text = "1.1 Наименование работы:";
             // 
-            // groupBox7
+            // groupBox2
             // 
-            this.groupBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox7.BackColor = System.Drawing.Color.White;
-            this.groupBox7.Controls.Add(this.textBox2_1);
-            this.groupBox7.Controls.Add(this.label2);
-            this.groupBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox7.Location = new System.Drawing.Point(3, 600);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(1211, 406);
-            this.groupBox7.TabIndex = 5;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "2 ЦЕЛЬ ВЫПОЛНЕНИЯ РАБОТЫ ПО ПРИВЯЗКЕ";
+            this.groupBox2.BackColor = System.Drawing.Color.White;
+            this.groupBox2.Controls.Add(this.textBox2_1);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBox2.Location = new System.Drawing.Point(3, 600);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(1211, 406);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "2 ЦЕЛЬ ВЫПОЛНЕНИЯ РАБОТЫ ПО ПРИВЯЗКЕ";
             // 
             // textBox2_1
             // 
@@ -408,77 +430,79 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Раздел 3.";
             // 
-            // groupBox5
+            // groupBox3
             // 
-            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox5.BackColor = System.Drawing.Color.White;
-            this.groupBox5.Controls.Add(this.btnaddlist3_2_1_2);
-            this.groupBox5.Controls.Add(this.textBox3_2_1_21);
-            this.groupBox5.Controls.Add(this.label3_8_2_3);
-            this.groupBox5.Controls.Add(this.textBox7);
-            this.groupBox5.Controls.Add(this.label3_8_2_2);
-            this.groupBox5.Controls.Add(this.textBox3_8_2_2);
-            this.groupBox5.Controls.Add(this.label3_8_2_1);
-            this.groupBox5.Controls.Add(this.textBox3_8_2_1);
-            this.groupBox5.Controls.Add(this.label3_8_2);
-            this.groupBox5.Controls.Add(this.textBox3_8_1);
-            this.groupBox5.Controls.Add(this.label3_8_1);
-            this.groupBox5.Controls.Add(this.label3_8);
-            this.groupBox5.Controls.Add(this.textBox3_7);
-            this.groupBox5.Controls.Add(this.label3_7);
-            this.groupBox5.Controls.Add(this.textBox3_6);
-            this.groupBox5.Controls.Add(this.label3_6);
-            this.groupBox5.Controls.Add(this.textBox3_5);
-            this.groupBox5.Controls.Add(this.label3_5);
-            this.groupBox5.Controls.Add(this.textBox3_4);
-            this.groupBox5.Controls.Add(this.label3_4);
-            this.groupBox5.Controls.Add(this.textBox3_3);
-            this.groupBox5.Controls.Add(this.label3_3);
-            this.groupBox5.Controls.Add(this.textBox3_2_5);
-            this.groupBox5.Controls.Add(this.label3_2_5);
-            this.groupBox5.Controls.Add(this.textBox3_2_4);
-            this.groupBox5.Controls.Add(this.label3_2_4);
-            this.groupBox5.Controls.Add(this.label3_2_3_1);
-            this.groupBox5.Controls.Add(this.textBox6);
-            this.groupBox5.Controls.Add(this.label3_2_3);
-            this.groupBox5.Controls.Add(this.textBox3_2_2_3);
-            this.groupBox5.Controls.Add(this.label3_2_2_3);
-            this.groupBox5.Controls.Add(this.textBox3_2_2_2);
-            this.groupBox5.Controls.Add(this.label3_2_2_2);
-            this.groupBox5.Controls.Add(this.textBox5);
-            this.groupBox5.Controls.Add(this.label3_2_2_1);
-            this.groupBox5.Controls.Add(this.label3_2_2);
-            this.groupBox5.Controls.Add(this.textBox3_2_1_4);
-            this.groupBox5.Controls.Add(this.label3_2_1_4);
-            this.groupBox5.Controls.Add(this.textBox4);
-            this.groupBox5.Controls.Add(this.label3_2_1_3);
-            this.groupBox5.Controls.Add(this.textBox3_2_1_2_1);
-            this.groupBox5.Controls.Add(this.label3_2_1_2_1);
-            this.groupBox5.Controls.Add(this.textBox3_2_1_2);
-            this.groupBox5.Controls.Add(this.label3_2_1_2);
-            this.groupBox5.Controls.Add(this.textBox3_2_1_1);
-            this.groupBox5.Controls.Add(this.label3_2_1_1);
-            this.groupBox5.Controls.Add(this.label3_2_1);
-            this.groupBox5.Controls.Add(this.textBox3_2);
-            this.groupBox5.Controls.Add(this.label3_21);
-            this.groupBox5.Controls.Add(this.label3_2);
-            this.groupBox5.Controls.Add(this.textBox3_1_3);
-            this.groupBox5.Controls.Add(this.label3_1_3);
-            this.groupBox5.Controls.Add(this.textBox3_1_2);
-            this.groupBox5.Controls.Add(this.label3_1_2);
-            this.groupBox5.Controls.Add(this.textBox3_1_1);
-            this.groupBox5.Controls.Add(this.label3_1_1);
-            this.groupBox5.Controls.Add(this.label3_1);
-            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox5.Location = new System.Drawing.Point(3, 1062);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(1211, 5200);
-            this.groupBox5.TabIndex = 4;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "3 ОСНОВНЫЕ ТРЕБОВАНИЯ К ВЫПОЛНЕНИЮ РАБОТЫ ПО ПРИВЯЗКЕ";
-            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
+            this.groupBox3.BackColor = System.Drawing.Color.White;
+            this.groupBox3.Controls.Add(this.label1);
+            this.groupBox3.Controls.Add(this.textBox3_end);
+            this.groupBox3.Controls.Add(this.btnaddlist3_2_1_2);
+            this.groupBox3.Controls.Add(this.textBox3_2_1_21);
+            this.groupBox3.Controls.Add(this.label3_8_2_3);
+            this.groupBox3.Controls.Add(this.textBox7);
+            this.groupBox3.Controls.Add(this.label3_8_2_2);
+            this.groupBox3.Controls.Add(this.textBox3_8_2_2);
+            this.groupBox3.Controls.Add(this.label3_8_2_1);
+            this.groupBox3.Controls.Add(this.textBox3_8_2_1);
+            this.groupBox3.Controls.Add(this.label3_8_2);
+            this.groupBox3.Controls.Add(this.textBox3_8_1);
+            this.groupBox3.Controls.Add(this.label3_8_1);
+            this.groupBox3.Controls.Add(this.label3_8);
+            this.groupBox3.Controls.Add(this.textBox3_7);
+            this.groupBox3.Controls.Add(this.label3_7);
+            this.groupBox3.Controls.Add(this.textBox3_6);
+            this.groupBox3.Controls.Add(this.label3_6);
+            this.groupBox3.Controls.Add(this.textBox3_5);
+            this.groupBox3.Controls.Add(this.label3_5);
+            this.groupBox3.Controls.Add(this.textBox3_4);
+            this.groupBox3.Controls.Add(this.label3_4);
+            this.groupBox3.Controls.Add(this.textBox3_3);
+            this.groupBox3.Controls.Add(this.label3_3);
+            this.groupBox3.Controls.Add(this.textBox3_2_5);
+            this.groupBox3.Controls.Add(this.label3_2_5);
+            this.groupBox3.Controls.Add(this.textBox3_2_4);
+            this.groupBox3.Controls.Add(this.label3_2_4);
+            this.groupBox3.Controls.Add(this.label3_2_3_1);
+            this.groupBox3.Controls.Add(this.textBox6);
+            this.groupBox3.Controls.Add(this.label3_2_3);
+            this.groupBox3.Controls.Add(this.textBox3_2_2_3);
+            this.groupBox3.Controls.Add(this.label3_2_2_3);
+            this.groupBox3.Controls.Add(this.textBox3_2_2_2);
+            this.groupBox3.Controls.Add(this.label3_2_2_2);
+            this.groupBox3.Controls.Add(this.textBox5);
+            this.groupBox3.Controls.Add(this.label3_2_2_1);
+            this.groupBox3.Controls.Add(this.label3_2_2);
+            this.groupBox3.Controls.Add(this.textBox3_2_1_4);
+            this.groupBox3.Controls.Add(this.label3_2_1_4);
+            this.groupBox3.Controls.Add(this.textBox4);
+            this.groupBox3.Controls.Add(this.label3_2_1_3);
+            this.groupBox3.Controls.Add(this.textBox3_2_1_2_1);
+            this.groupBox3.Controls.Add(this.label3_2_1_2_1);
+            this.groupBox3.Controls.Add(this.textBox3_2_1_2);
+            this.groupBox3.Controls.Add(this.label3_2_1_2);
+            this.groupBox3.Controls.Add(this.textBox3_2_1_1);
+            this.groupBox3.Controls.Add(this.label3_2_1_1);
+            this.groupBox3.Controls.Add(this.label3_2_1);
+            this.groupBox3.Controls.Add(this.textBox3_2);
+            this.groupBox3.Controls.Add(this.label3_21);
+            this.groupBox3.Controls.Add(this.label3_2);
+            this.groupBox3.Controls.Add(this.textBox3_1_3);
+            this.groupBox3.Controls.Add(this.label3_1_3);
+            this.groupBox3.Controls.Add(this.textBox3_1_2);
+            this.groupBox3.Controls.Add(this.label3_1_2);
+            this.groupBox3.Controls.Add(this.textBox3_1_1);
+            this.groupBox3.Controls.Add(this.label3_1_1);
+            this.groupBox3.Controls.Add(this.label3_1);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBox3.Location = new System.Drawing.Point(3, 1062);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(1211, 5982);
+            this.groupBox3.TabIndex = 4;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "3 ОСНОВНЫЕ ТРЕБОВАНИЯ К ВЫПОЛНЕНИЮ РАБОТЫ ПО ПРИВЯЗКЕ";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
             // label3_8_2_3
             // 
@@ -1063,11 +1087,17 @@
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.White;
+            this.groupBox4.Controls.Add(this.label4_end);
+            this.groupBox4.Controls.Add(this.textBox4_end);
+            this.groupBox4.Controls.Add(this.textBox4_2);
+            this.groupBox4.Controls.Add(this.label4_2);
+            this.groupBox4.Controls.Add(this.textBox4_1);
+            this.groupBox4.Controls.Add(this.label4_1);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox4.Location = new System.Drawing.Point(3, 6290);
+            this.groupBox4.Location = new System.Drawing.Point(3, 7072);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(1211, 354);
+            this.groupBox4.Size = new System.Drawing.Size(1211, 1276);
             this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "4 ТРЕБОВАНИЯ ЗАЩИТЫ ГОСУДАРСТВЕННОЙ ТАЙНЫ ПРИ ВЫПОЛНЕНИИ РАБОТЫ";
@@ -1121,6 +1151,209 @@
             this.btnaddlist3_2_1_2.UseVisualStyleBackColor = true;
             this.btnaddlist3_2_1_2.Click += new System.EventHandler(this.btnaddlist3_2_1_2_Click);
             // 
+            // textBox3_end
+            // 
+            this.textBox3_end.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox3_end.Location = new System.Drawing.Point(111, 5278);
+            this.textBox3_end.Multiline = true;
+            this.textBox3_end.Name = "textBox3_end";
+            this.textBox3_end.Size = new System.Drawing.Size(929, 641);
+            this.textBox3_end.TabIndex = 66;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(108, 5247);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(494, 21);
+            this.label1.TabIndex = 67;
+            this.label1.Text = "Сюда можно вписать подпункты которые не описаны выше";
+            // 
+            // label4_1
+            // 
+            this.label4_1.AutoSize = true;
+            this.label4_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4_1.Location = new System.Drawing.Point(45, 54);
+            this.label4_1.Name = "label4_1";
+            this.label4_1.Size = new System.Drawing.Size(357, 24);
+            this.label4_1.TabIndex = 0;
+            this.label4_1.Text = "4.1 Требования к режиму секретности";
+            // 
+            // textBox4_1
+            // 
+            this.textBox4_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox4_1.Location = new System.Drawing.Point(76, 92);
+            this.textBox4_1.Multiline = true;
+            this.textBox4_1.Name = "textBox4_1";
+            this.textBox4_1.Size = new System.Drawing.Size(964, 171);
+            this.textBox4_1.TabIndex = 1;
+            this.textBox4_1.Text = resources.GetString("textBox4_1.Text");
+            // 
+            // textBox4_2
+            // 
+            this.textBox4_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox4_2.Location = new System.Drawing.Point(76, 324);
+            this.textBox4_2.Multiline = true;
+            this.textBox4_2.Name = "textBox4_2";
+            this.textBox4_2.Size = new System.Drawing.Size(964, 144);
+            this.textBox4_2.TabIndex = 3;
+            this.textBox4_2.Text = resources.GetString("textBox4_2.Text");
+            // 
+            // label4_2
+            // 
+            this.label4_2.AutoSize = true;
+            this.label4_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4_2.Location = new System.Drawing.Point(45, 288);
+            this.label4_2.Name = "label4_2";
+            this.label4_2.Size = new System.Drawing.Size(724, 24);
+            this.label4_2.TabIndex = 2;
+            this.label4_2.Text = "4.2 Требования по защите информации от иностранных технических разведок";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.BackColor = System.Drawing.Color.White;
+            this.groupBox5.Controls.Add(this.label5_end);
+            this.groupBox5.Controls.Add(this.label5_1_3);
+            this.groupBox5.Controls.Add(this.textBox5_1_3);
+            this.groupBox5.Controls.Add(this.textBox5_end);
+            this.groupBox5.Controls.Add(this.label5_1_2);
+            this.groupBox5.Controls.Add(this.textBox5_1_2);
+            this.groupBox5.Controls.Add(this.label5_1_1);
+            this.groupBox5.Controls.Add(this.textBox5_1);
+            this.groupBox5.Controls.Add(this.label5_1);
+            this.groupBox5.Controls.Add(this.textBox51);
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBox5.Location = new System.Drawing.Point(3, 8376);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(1211, 2665);
+            this.groupBox5.TabIndex = 4;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "5 ЭТАПЫ ВЫПОЛНЕНИЯ РАБОТЫ";
+            // 
+            // textBox5_1
+            // 
+            this.textBox5_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox5_1.Location = new System.Drawing.Point(76, 355);
+            this.textBox5_1.Multiline = true;
+            this.textBox5_1.Name = "textBox5_1";
+            this.textBox5_1.Size = new System.Drawing.Size(964, 914);
+            this.textBox5_1.TabIndex = 3;
+            this.textBox5_1.Text = resources.GetString("textBox5_1.Text");
+            this.textBox5_1.TextChanged += new System.EventHandler(this.textBox5_1_TextChanged);
+            // 
+            // label5_1
+            // 
+            this.label5_1.AutoSize = true;
+            this.label5_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5_1.Location = new System.Drawing.Point(45, 251);
+            this.label5_1.Name = "label5_1";
+            this.label5_1.Size = new System.Drawing.Size(606, 24);
+            this.label5_1.TabIndex = 2;
+            this.label5_1.Text = "5.1 Объем разрабатываемой и поставляемой документации";
+            // 
+            // textBox51
+            // 
+            this.textBox51.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox51.Location = new System.Drawing.Point(49, 44);
+            this.textBox51.Multiline = true;
+            this.textBox51.Name = "textBox51";
+            this.textBox51.Size = new System.Drawing.Size(991, 171);
+            this.textBox51.TabIndex = 1;
+            this.textBox51.Text = "Работа по корректировке и передаче в АО «Невское ПКБ» КД комплекса В-7М.2 для уст" +
+    "ановки на заказ С-303 выполняется в один этап по договору между АО «Невское ПКБ»" +
+    " и АО НИИИТ-РК.\r\n";
+            // 
+            // label5_1_1
+            // 
+            this.label5_1_1.AutoSize = true;
+            this.label5_1_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5_1_1.Location = new System.Drawing.Point(72, 308);
+            this.label5_1_1.Name = "label5_1_1";
+            this.label5_1_1.Size = new System.Drawing.Size(629, 24);
+            this.label5_1_1.TabIndex = 4;
+            this.label5_1_1.Text = "5.1.1 Перечень документов, предоставляемых в АО «Невское ПКБ»:";
+            // 
+            // label5_1_2
+            // 
+            this.label5_1_2.AutoSize = true;
+            this.label5_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5_1_2.Location = new System.Drawing.Point(72, 1332);
+            this.label5_1_2.Name = "label5_1_2";
+            this.label5_1_2.Size = new System.Drawing.Size(50, 24);
+            this.label5_1_2.TabIndex = 6;
+            this.label5_1_2.Text = "5.1.2";
+            // 
+            // textBox5_1_2
+            // 
+            this.textBox5_1_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox5_1_2.Location = new System.Drawing.Point(76, 1379);
+            this.textBox5_1_2.Multiline = true;
+            this.textBox5_1_2.Name = "textBox5_1_2";
+            this.textBox5_1_2.Size = new System.Drawing.Size(964, 193);
+            this.textBox5_1_2.TabIndex = 5;
+            this.textBox5_1_2.Text = resources.GetString("textBox5_1_2.Text");
+            // 
+            // label5_1_3
+            // 
+            this.label5_1_3.AutoSize = true;
+            this.label5_1_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5_1_3.Location = new System.Drawing.Point(72, 1602);
+            this.label5_1_3.Name = "label5_1_3";
+            this.label5_1_3.Size = new System.Drawing.Size(50, 24);
+            this.label5_1_3.TabIndex = 8;
+            this.label5_1_3.Text = "5.1.3";
+            // 
+            // textBox5_1_3
+            // 
+            this.textBox5_1_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox5_1_3.Location = new System.Drawing.Point(76, 1649);
+            this.textBox5_1_3.Multiline = true;
+            this.textBox5_1_3.Name = "textBox5_1_3";
+            this.textBox5_1_3.Size = new System.Drawing.Size(964, 193);
+            this.textBox5_1_3.TabIndex = 7;
+            this.textBox5_1_3.Text = "Корректировка РКД, ЭД и ПО в период изготовления выполнения монтажа и пуско-налад" +
+    "очных работ производится по договору с заводом-строителем заказа.";
+            // 
+            // label5_end
+            // 
+            this.label5_end.AutoSize = true;
+            this.label5_end.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5_end.Location = new System.Drawing.Point(73, 1914);
+            this.label5_end.Name = "label5_end";
+            this.label5_end.Size = new System.Drawing.Size(494, 21);
+            this.label5_end.TabIndex = 69;
+            this.label5_end.Text = "Сюда можно вписать подпункты которые не описаны выше";
+            // 
+            // textBox5_end
+            // 
+            this.textBox5_end.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox5_end.Location = new System.Drawing.Point(76, 1945);
+            this.textBox5_end.Multiline = true;
+            this.textBox5_end.Name = "textBox5_end";
+            this.textBox5_end.Size = new System.Drawing.Size(964, 641);
+            this.textBox5_end.TabIndex = 68;
+            // 
+            // label4_end
+            // 
+            this.label4_end.AutoSize = true;
+            this.label4_end.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4_end.Location = new System.Drawing.Point(73, 550);
+            this.label4_end.Name = "label4_end";
+            this.label4_end.Size = new System.Drawing.Size(494, 21);
+            this.label4_end.TabIndex = 71;
+            this.label4_end.Text = "Сюда можно вписать подпункты которые не описаны выше";
+            // 
+            // textBox4_end
+            // 
+            this.textBox4_end.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox4_end.Location = new System.Drawing.Point(76, 581);
+            this.textBox4_end.Multiline = true;
+            this.textBox4_end.Name = "textBox4_end";
+            this.textBox4_end.Size = new System.Drawing.Size(964, 641);
+            this.textBox4_end.TabIndex = 70;
+            // 
             // TSEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1140,14 +1373,18 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.TSEditor_FormClosed);
             this.Load += new System.EventHandler(this.TSEditor_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1157,10 +1394,10 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.MenuStrip menuStrip1;
@@ -1242,5 +1479,24 @@
         private System.Windows.Forms.TextBox textBox1_2;
         private System.Windows.Forms.TextBox textBox3_2_1_21;
         private System.Windows.Forms.Button btnaddlist3_2_1_2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox3_end;
+        private System.Windows.Forms.TextBox textBox4_2;
+        private System.Windows.Forms.Label label4_2;
+        private System.Windows.Forms.TextBox textBox4_1;
+        private System.Windows.Forms.Label label4_1;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.TextBox textBox5_1;
+        private System.Windows.Forms.Label label5_1;
+        private System.Windows.Forms.TextBox textBox51;
+        private System.Windows.Forms.Label label5_1_1;
+        private System.Windows.Forms.Label label5_end;
+        private System.Windows.Forms.Label label5_1_3;
+        private System.Windows.Forms.TextBox textBox5_1_3;
+        private System.Windows.Forms.TextBox textBox5_end;
+        private System.Windows.Forms.Label label5_1_2;
+        private System.Windows.Forms.TextBox textBox5_1_2;
+        private System.Windows.Forms.Label label4_end;
+        private System.Windows.Forms.TextBox textBox4_end;
     }
 }

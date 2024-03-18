@@ -301,6 +301,26 @@ namespace CTS
 
         private void btnaddlist3_2_1_2_Click(object sender, EventArgs e)
         {
+              List<string> list = new List<string>();
+
+            SelectForms.SelectList3_2_1_2 selectList= new SelectForms.SelectList3_2_1_2(list);
+            selectList.ShowDialog();
+            list = selectList.listOfSomething;
+
+
+            foreach (string item in list)
+            {
+                textBox3_2_1_21.AppendText(item + Environment.NewLine);
+            }
+
+
+
+
+
+        }
+
+        private void textBox5_1_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
