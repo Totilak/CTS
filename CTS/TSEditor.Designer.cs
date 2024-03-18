@@ -56,7 +56,7 @@
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label3_8_2_3 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox3_8_2_3 = new System.Windows.Forms.TextBox();
             this.label3_8_2_2 = new System.Windows.Forms.Label();
             this.textBox3_8_2_2 = new System.Windows.Forms.TextBox();
             this.label3_8_2_1 = new System.Windows.Forms.Label();
@@ -80,18 +80,18 @@
             this.textBox3_2_4 = new System.Windows.Forms.TextBox();
             this.label3_2_4 = new System.Windows.Forms.Label();
             this.label3_2_3_1 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox3_2_3_1 = new System.Windows.Forms.TextBox();
             this.label3_2_3 = new System.Windows.Forms.Label();
             this.textBox3_2_2_3 = new System.Windows.Forms.TextBox();
             this.label3_2_2_3 = new System.Windows.Forms.Label();
             this.textBox3_2_2_2 = new System.Windows.Forms.TextBox();
             this.label3_2_2_2 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox3_2_2_1 = new System.Windows.Forms.TextBox();
             this.label3_2_2_1 = new System.Windows.Forms.Label();
             this.label3_2_2 = new System.Windows.Forms.Label();
             this.textBox3_2_1_4 = new System.Windows.Forms.TextBox();
             this.label3_2_1_4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3_2_1_3 = new System.Windows.Forms.TextBox();
             this.label3_2_1_3 = new System.Windows.Forms.Label();
             this.textBox3_2_1_2_1 = new System.Windows.Forms.TextBox();
             this.label3_2_1_2_1 = new System.Windows.Forms.Label();
@@ -440,7 +440,7 @@
             this.groupBox3.Controls.Add(this.btnaddlist3_2_1_2);
             this.groupBox3.Controls.Add(this.textBox3_2_1_21);
             this.groupBox3.Controls.Add(this.label3_8_2_3);
-            this.groupBox3.Controls.Add(this.textBox7);
+            this.groupBox3.Controls.Add(this.textBox3_8_2_3);
             this.groupBox3.Controls.Add(this.label3_8_2_2);
             this.groupBox3.Controls.Add(this.textBox3_8_2_2);
             this.groupBox3.Controls.Add(this.label3_8_2_1);
@@ -464,18 +464,18 @@
             this.groupBox3.Controls.Add(this.textBox3_2_4);
             this.groupBox3.Controls.Add(this.label3_2_4);
             this.groupBox3.Controls.Add(this.label3_2_3_1);
-            this.groupBox3.Controls.Add(this.textBox6);
+            this.groupBox3.Controls.Add(this.textBox3_2_3_1);
             this.groupBox3.Controls.Add(this.label3_2_3);
             this.groupBox3.Controls.Add(this.textBox3_2_2_3);
             this.groupBox3.Controls.Add(this.label3_2_2_3);
             this.groupBox3.Controls.Add(this.textBox3_2_2_2);
             this.groupBox3.Controls.Add(this.label3_2_2_2);
-            this.groupBox3.Controls.Add(this.textBox5);
+            this.groupBox3.Controls.Add(this.textBox3_2_2_1);
             this.groupBox3.Controls.Add(this.label3_2_2_1);
             this.groupBox3.Controls.Add(this.label3_2_2);
             this.groupBox3.Controls.Add(this.textBox3_2_1_4);
             this.groupBox3.Controls.Add(this.label3_2_1_4);
-            this.groupBox3.Controls.Add(this.textBox4);
+            this.groupBox3.Controls.Add(this.textBox3_2_1_3);
             this.groupBox3.Controls.Add(this.label3_2_1_3);
             this.groupBox3.Controls.Add(this.textBox3_2_1_2_1);
             this.groupBox3.Controls.Add(this.label3_2_1_2_1);
@@ -515,16 +515,16 @@
             this.label3_8_2_3.Text = "3.8.2.3";
             this.label3_8_2_3.Click += new System.EventHandler(this.label3_8_2_3_Click);
             // 
-            // textBox7
+            // textBox3_8_2_3
             // 
-            this.textBox7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox7.Location = new System.Drawing.Point(111, 4947);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(929, 214);
-            this.textBox7.TabIndex = 62;
-            this.textBox7.Text = resources.GetString("textBox7.Text");
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            this.textBox3_8_2_3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox3_8_2_3.Location = new System.Drawing.Point(111, 4947);
+            this.textBox3_8_2_3.Multiline = true;
+            this.textBox3_8_2_3.Name = "textBox3_8_2_3";
+            this.textBox3_8_2_3.Size = new System.Drawing.Size(929, 214);
+            this.textBox3_8_2_3.TabIndex = 62;
+            this.textBox3_8_2_3.Text = resources.GetString("textBox3_8_2_3.Text");
+            this.textBox3_8_2_3.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // label3_8_2_2
             // 
@@ -768,17 +768,17 @@
             this.label3_2_3_1.Text = "3.2.3.1";
             this.label3_2_3_1.Click += new System.EventHandler(this.label3_2_3_1_Click);
             // 
-            // textBox6
+            // textBox3_2_3_1
             // 
-            this.textBox6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox6.Location = new System.Drawing.Point(49, 2637);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(991, 1138);
-            this.textBox6.TabIndex = 31;
-            this.textBox6.Text = "Состав комплекса < > для корабля проекта < >:\r\n- < >;\r\n- < >;\r\n- < >;\r\n- < >;\r\n- " +
+            this.textBox3_2_3_1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox3_2_3_1.Location = new System.Drawing.Point(49, 2637);
+            this.textBox3_2_3_1.Multiline = true;
+            this.textBox3_2_3_1.Name = "textBox3_2_3_1";
+            this.textBox3_2_3_1.Size = new System.Drawing.Size(991, 1138);
+            this.textBox3_2_3_1.TabIndex = 31;
+            this.textBox3_2_3_1.Text = "Состав комплекса < > для корабля проекта < >:\r\n- < >;\r\n- < >;\r\n- < >;\r\n- < >;\r\n- " +
     "< >;\r\n- < >.\r\n";
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.textBox3_2_3_1.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // label3_2_3
             // 
@@ -836,16 +836,16 @@
             this.label3_2_2_2.Text = "3.2.2.2";
             this.label3_2_2_2.Click += new System.EventHandler(this.label3_2_2_2_Click);
             // 
-            // textBox5
+            // textBox3_2_2_1
             // 
-            this.textBox5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox5.Location = new System.Drawing.Point(76, 1996);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(964, 116);
-            this.textBox5.TabIndex = 24;
-            this.textBox5.Text = resources.GetString("textBox5.Text");
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.textBox3_2_2_1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox3_2_2_1.Location = new System.Drawing.Point(76, 1996);
+            this.textBox3_2_2_1.Multiline = true;
+            this.textBox3_2_2_1.Name = "textBox3_2_2_1";
+            this.textBox3_2_2_1.Size = new System.Drawing.Size(964, 116);
+            this.textBox3_2_2_1.TabIndex = 24;
+            this.textBox3_2_2_1.Text = resources.GetString("textBox3_2_2_1.Text");
+            this.textBox3_2_2_1.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // label3_2_2_1
             // 
@@ -890,16 +890,16 @@
             this.label3_2_1_4.Text = "3.2.1.4";
             this.label3_2_1_4.Click += new System.EventHandler(this.label3_2_1_4_Click);
             // 
-            // textBox4
+            // textBox3_2_1_3
             // 
-            this.textBox4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(97, 1477);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(943, 197);
-            this.textBox4.TabIndex = 19;
-            this.textBox4.Text = resources.GetString("textBox4.Text");
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.textBox3_2_1_3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox3_2_1_3.Location = new System.Drawing.Point(97, 1477);
+            this.textBox3_2_1_3.Multiline = true;
+            this.textBox3_2_1_3.Name = "textBox3_2_1_3";
+            this.textBox3_2_1_3.Size = new System.Drawing.Size(943, 197);
+            this.textBox3_2_1_3.TabIndex = 19;
+            this.textBox3_2_1_3.Text = resources.GetString("textBox3_2_1_3.Text");
+            this.textBox3_2_1_3.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label3_2_1_3
             // 
@@ -1422,18 +1422,18 @@
         private System.Windows.Forms.TextBox textBox2_1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3_2_3_1;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox3_2_3_1;
         private System.Windows.Forms.Label label3_2_3;
         private System.Windows.Forms.TextBox textBox3_2_2_3;
         private System.Windows.Forms.Label label3_2_2_3;
         private System.Windows.Forms.TextBox textBox3_2_2_2;
         private System.Windows.Forms.Label label3_2_2_2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox3_2_2_1;
         private System.Windows.Forms.Label label3_2_2_1;
         private System.Windows.Forms.Label label3_2_2;
         private System.Windows.Forms.TextBox textBox3_2_1_4;
         private System.Windows.Forms.Label label3_2_1_4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3_2_1_3;
         private System.Windows.Forms.Label label3_2_1_3;
         private System.Windows.Forms.TextBox textBox3_2_1_2_1;
         private System.Windows.Forms.Label label3_2_1_2_1;
@@ -1475,7 +1475,7 @@
         private System.Windows.Forms.TextBox textBox3_8_1;
         private System.Windows.Forms.Label label3_8_1;
         private System.Windows.Forms.Label label3_8_2_3;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox3_8_2_3;
         private System.Windows.Forms.TextBox textBox1_2;
         private System.Windows.Forms.TextBox textBox3_2_1_21;
         private System.Windows.Forms.Button btnaddlist3_2_1_2;
