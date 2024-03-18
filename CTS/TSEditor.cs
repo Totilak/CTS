@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using CTS.Classes;
 
 namespace CTS
 {
@@ -323,5 +324,62 @@ namespace CTS
         {
 
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DoText();
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+
+        private void DoText()
+        {
+            Subparagraph subparagraph = new Subparagraph();
+            Paragraph paragraph = new Paragraph();
+            TechnicalSpecification technicalSpecification = new TechnicalSpecification();
+
+            //Point 1
+            paragraph.Title = groupBox1.Text;
+
+            //paragraph.Subparagraphs.Add()
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

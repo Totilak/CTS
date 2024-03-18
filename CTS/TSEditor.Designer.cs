@@ -53,7 +53,6 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox2_1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label3_8_2_3 = new System.Windows.Forms.Label();
             this.textBox3_8_2_3 = new System.Windows.Forms.TextBox();
@@ -135,6 +134,18 @@
             this.textBox5_end = new System.Windows.Forms.TextBox();
             this.label4_end = new System.Windows.Forms.Label();
             this.textBox4_end = new System.Windows.Forms.TextBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label6_end = new System.Windows.Forms.Label();
+            this.textBox6_end = new System.Windows.Forms.TextBox();
+            this.label6_1 = new System.Windows.Forms.Label();
+            this.textBox6_1 = new System.Windows.Forms.TextBox();
+            this.label6_2 = new System.Windows.Forms.Label();
+            this.textBox6_2 = new System.Windows.Forms.TextBox();
+            this.label6_4 = new System.Windows.Forms.Label();
+            this.textBox6_4 = new System.Windows.Forms.TextBox();
+            this.label6_3 = new System.Windows.Forms.Label();
+            this.textBox6_3 = new System.Windows.Forms.TextBox();
+            this.textBox6_41 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -142,6 +153,7 @@
             this.groupBox4.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -165,10 +177,10 @@
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.LightGray;
             this.flowLayoutPanel1.Controls.Add(this.groupBox1);
             this.flowLayoutPanel1.Controls.Add(this.groupBox2);
-            this.flowLayoutPanel1.Controls.Add(this.groupBox6);
             this.flowLayoutPanel1.Controls.Add(this.groupBox3);
             this.flowLayoutPanel1.Controls.Add(this.groupBox4);
             this.flowLayoutPanel1.Controls.Add(this.groupBox5);
+            this.flowLayoutPanel1.Controls.Add(this.groupBox6);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 43);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1253, 776);
@@ -415,21 +427,6 @@
             this.label2.TabIndex = 22;
             this.label2.Text = "2.1 Целью работы является:";
             // 
-            // groupBox6
-            // 
-            this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox6.BackColor = System.Drawing.Color.White;
-            this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox6.Location = new System.Drawing.Point(3, 1034);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(1211, 0);
-            this.groupBox6.TabIndex = 3;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Раздел 3.";
-            // 
             // groupBox3
             // 
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
@@ -495,7 +492,7 @@
             this.groupBox3.Controls.Add(this.label3_1_1);
             this.groupBox3.Controls.Add(this.label3_1);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox3.Location = new System.Drawing.Point(3, 1062);
+            this.groupBox3.Location = new System.Drawing.Point(3, 1034);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(1211, 5982);
@@ -1094,7 +1091,7 @@
             this.groupBox4.Controls.Add(this.textBox4_1);
             this.groupBox4.Controls.Add(this.label4_1);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox4.Location = new System.Drawing.Point(3, 7072);
+            this.groupBox4.Location = new System.Drawing.Point(3, 7044);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(1211, 1276);
@@ -1106,12 +1103,13 @@
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(1124, 828);
+            this.button2.Location = new System.Drawing.Point(1020, 828);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(141, 39);
+            this.button2.Size = new System.Drawing.Size(245, 39);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Сохранить";
+            this.button2.Text = "Сохранить в Word";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // menuStrip1
             // 
@@ -1224,7 +1222,7 @@
             this.groupBox5.Controls.Add(this.label5_1);
             this.groupBox5.Controls.Add(this.textBox51);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox5.Location = new System.Drawing.Point(3, 8376);
+            this.groupBox5.Location = new System.Drawing.Point(3, 8348);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(1211, 2665);
@@ -1354,6 +1352,140 @@
             this.textBox4_end.Size = new System.Drawing.Size(964, 641);
             this.textBox4_end.TabIndex = 70;
             // 
+            // groupBox6
+            // 
+            this.groupBox6.BackColor = System.Drawing.Color.White;
+            this.groupBox6.Controls.Add(this.textBox6_41);
+            this.groupBox6.Controls.Add(this.label6_4);
+            this.groupBox6.Controls.Add(this.textBox6_4);
+            this.groupBox6.Controls.Add(this.label6_3);
+            this.groupBox6.Controls.Add(this.textBox6_3);
+            this.groupBox6.Controls.Add(this.label6_2);
+            this.groupBox6.Controls.Add(this.textBox6_2);
+            this.groupBox6.Controls.Add(this.label6_end);
+            this.groupBox6.Controls.Add(this.textBox6_end);
+            this.groupBox6.Controls.Add(this.label6_1);
+            this.groupBox6.Controls.Add(this.textBox6_1);
+            this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBox6.Location = new System.Drawing.Point(3, 11041);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 25, 3, 3);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(1211, 1633);
+            this.groupBox6.TabIndex = 70;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "6 ПОРЯДОК ВЫПОЛНЕНИЯ И ПРИЕМКИ ЭТАПОВ РАБОТЫ";
+            // 
+            // label6_end
+            // 
+            this.label6_end.AutoSize = true;
+            this.label6_end.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6_end.Location = new System.Drawing.Point(82, 910);
+            this.label6_end.Name = "label6_end";
+            this.label6_end.Size = new System.Drawing.Size(494, 21);
+            this.label6_end.TabIndex = 69;
+            this.label6_end.Text = "Сюда можно вписать подпункты которые не описаны выше";
+            // 
+            // textBox6_end
+            // 
+            this.textBox6_end.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox6_end.Location = new System.Drawing.Point(86, 940);
+            this.textBox6_end.Multiline = true;
+            this.textBox6_end.Name = "textBox6_end";
+            this.textBox6_end.Size = new System.Drawing.Size(954, 641);
+            this.textBox6_end.TabIndex = 68;
+            // 
+            // label6_1
+            // 
+            this.label6_1.AutoSize = true;
+            this.label6_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6_1.Location = new System.Drawing.Point(45, 66);
+            this.label6_1.Name = "label6_1";
+            this.label6_1.Size = new System.Drawing.Size(35, 24);
+            this.label6_1.TabIndex = 4;
+            this.label6_1.Text = "6.1";
+            // 
+            // textBox6_1
+            // 
+            this.textBox6_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox6_1.Location = new System.Drawing.Point(86, 66);
+            this.textBox6_1.Multiline = true;
+            this.textBox6_1.Name = "textBox6_1";
+            this.textBox6_1.Size = new System.Drawing.Size(954, 77);
+            this.textBox6_1.TabIndex = 3;
+            this.textBox6_1.Text = "Контроль качества работ по настоящему техническому заданию осуществляет 685 ВП МО" +
+    " РФ. ";
+            // 
+            // label6_2
+            // 
+            this.label6_2.AutoSize = true;
+            this.label6_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6_2.Location = new System.Drawing.Point(45, 214);
+            this.label6_2.Name = "label6_2";
+            this.label6_2.Size = new System.Drawing.Size(35, 24);
+            this.label6_2.TabIndex = 71;
+            this.label6_2.Text = "6.2";
+            // 
+            // textBox6_2
+            // 
+            this.textBox6_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox6_2.Location = new System.Drawing.Point(86, 214);
+            this.textBox6_2.Multiline = true;
+            this.textBox6_2.Name = "textBox6_2";
+            this.textBox6_2.Size = new System.Drawing.Size(954, 143);
+            this.textBox6_2.TabIndex = 70;
+            this.textBox6_2.Text = "Основанием для приемки работ является технический акт сдачи-приемки, в части срок" +
+    "ов и качества выполнения работ, подписанный АО НИИИТ-РК, АО «Невское ПКБ», согла" +
+    "сованный 685 ВП МО РФ и 243 ВП МО РФ. ";
+            // 
+            // label6_4
+            // 
+            this.label6_4.AutoSize = true;
+            this.label6_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6_4.Location = new System.Drawing.Point(45, 628);
+            this.label6_4.Name = "label6_4";
+            this.label6_4.Size = new System.Drawing.Size(35, 24);
+            this.label6_4.TabIndex = 75;
+            this.label6_4.Text = "6.4";
+            // 
+            // textBox6_4
+            // 
+            this.textBox6_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox6_4.Location = new System.Drawing.Point(86, 628);
+            this.textBox6_4.Multiline = true;
+            this.textBox6_4.Name = "textBox6_4";
+            this.textBox6_4.Size = new System.Drawing.Size(954, 143);
+            this.textBox6_4.TabIndex = 74;
+            this.textBox6_4.Text = resources.GetString("textBox6_4.Text");
+            // 
+            // label6_3
+            // 
+            this.label6_3.AutoSize = true;
+            this.label6_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6_3.Location = new System.Drawing.Point(45, 421);
+            this.label6_3.Name = "label6_3";
+            this.label6_3.Size = new System.Drawing.Size(35, 24);
+            this.label6_3.TabIndex = 73;
+            this.label6_3.Text = "6.3";
+            // 
+            // textBox6_3
+            // 
+            this.textBox6_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox6_3.Location = new System.Drawing.Point(86, 421);
+            this.textBox6_3.Multiline = true;
+            this.textBox6_3.Name = "textBox6_3";
+            this.textBox6_3.Size = new System.Drawing.Size(954, 166);
+            this.textBox6_3.TabIndex = 72;
+            this.textBox6_3.Text = resources.GetString("textBox6_3.Text");
+            // 
+            // textBox6_41
+            // 
+            this.textBox6_41.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox6_41.Location = new System.Drawing.Point(86, 802);
+            this.textBox6_41.Name = "textBox6_41";
+            this.textBox6_41.Size = new System.Drawing.Size(954, 29);
+            this.textBox6_41.TabIndex = 76;
+            this.textBox6_41.Text = "Лист согласования прилагается.";
+            // 
             // TSEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1385,6 +1517,8 @@
             this.menuStrip1.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1396,7 +1530,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button button2;
@@ -1498,5 +1631,17 @@
         private System.Windows.Forms.TextBox textBox5_1_2;
         private System.Windows.Forms.Label label4_end;
         private System.Windows.Forms.TextBox textBox4_end;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.TextBox textBox6_41;
+        private System.Windows.Forms.Label label6_4;
+        private System.Windows.Forms.TextBox textBox6_4;
+        private System.Windows.Forms.Label label6_3;
+        private System.Windows.Forms.TextBox textBox6_3;
+        private System.Windows.Forms.Label label6_2;
+        private System.Windows.Forms.TextBox textBox6_2;
+        private System.Windows.Forms.Label label6_end;
+        private System.Windows.Forms.TextBox textBox6_end;
+        private System.Windows.Forms.Label label6_1;
+        private System.Windows.Forms.TextBox textBox6_1;
     }
 }
