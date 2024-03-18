@@ -103,11 +103,11 @@
             this.textBox3_2 = new System.Windows.Forms.TextBox();
             this.label3_21 = new System.Windows.Forms.Label();
             this.label3_2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox3_1_3 = new System.Windows.Forms.TextBox();
             this.label3_1_3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3_1_2 = new System.Windows.Forms.TextBox();
             this.label3_1_2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox3_1_1 = new System.Windows.Forms.TextBox();
             this.label3_1_1 = new System.Windows.Forms.Label();
             this.label3_1 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -459,11 +459,11 @@
             this.groupBox5.Controls.Add(this.textBox3_2);
             this.groupBox5.Controls.Add(this.label3_21);
             this.groupBox5.Controls.Add(this.label3_2);
-            this.groupBox5.Controls.Add(this.textBox3);
+            this.groupBox5.Controls.Add(this.textBox3_1_3);
             this.groupBox5.Controls.Add(this.label3_1_3);
-            this.groupBox5.Controls.Add(this.textBox2);
+            this.groupBox5.Controls.Add(this.textBox3_1_2);
             this.groupBox5.Controls.Add(this.label3_1_2);
-            this.groupBox5.Controls.Add(this.textBox1);
+            this.groupBox5.Controls.Add(this.textBox3_1_1);
             this.groupBox5.Controls.Add(this.label3_1_1);
             this.groupBox5.Controls.Add(this.label3_1);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -952,13 +952,13 @@
             this.label3_2.TabIndex = 8;
             this.label3_2.Text = "3.2 Технические требования";
             // 
-            // textBox3
+            // textBox3_1_3
             // 
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(251, 194);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(789, 29);
-            this.textBox3.TabIndex = 7;
+            this.textBox3_1_3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox3_1_3.Location = new System.Drawing.Point(251, 194);
+            this.textBox3_1_3.Name = "textBox3_1_3";
+            this.textBox3_1_3.Size = new System.Drawing.Size(789, 29);
+            this.textBox3_1_3.TabIndex = 7;
             // 
             // label3_1_3
             // 
@@ -970,13 +970,14 @@
             this.label3_1_3.TabIndex = 6;
             this.label3_1_3.Text = "3.1.3 Обозначение - ";
             // 
-            // textBox2
+            // textBox3_1_2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(288, 147);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(752, 29);
-            this.textBox2.TabIndex = 5;
+            this.textBox3_1_2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox3_1_2.Location = new System.Drawing.Point(288, 147);
+            this.textBox3_1_2.Name = "textBox3_1_2";
+            this.textBox3_1_2.Size = new System.Drawing.Size(752, 29);
+            this.textBox3_1_2.TabIndex = 5;
+            this.textBox3_1_2.TextChanged += new System.EventHandler(this.textBox3_1_2_TextChanged);
             // 
             // label3_1_2
             // 
@@ -988,13 +989,14 @@
             this.label3_1_2.TabIndex = 4;
             this.label3_1_2.Text = "3.1.2 Индекс комплекса – ";
             // 
-            // textBox1
+            // textBox3_1_1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(251, 96);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(789, 29);
-            this.textBox1.TabIndex = 3;
+            this.textBox3_1_1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox3_1_1.Location = new System.Drawing.Point(251, 96);
+            this.textBox3_1_1.Name = "textBox3_1_1";
+            this.textBox3_1_1.Size = new System.Drawing.Size(789, 29);
+            this.textBox3_1_1.TabIndex = 3;
+            this.textBox3_1_1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3_1_1
             // 
@@ -1145,11 +1147,11 @@
         private System.Windows.Forms.TextBox textBox3_2;
         private System.Windows.Forms.Label label3_21;
         private System.Windows.Forms.Label label3_2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox3_1_3;
         private System.Windows.Forms.Label label3_1_3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3_1_2;
         private System.Windows.Forms.Label label3_1_2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox3_1_1;
         private System.Windows.Forms.Label label3_1_1;
         private System.Windows.Forms.Label label3_1;
         private System.Windows.Forms.Label label3_8;

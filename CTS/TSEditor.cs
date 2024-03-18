@@ -93,5 +93,20 @@ namespace CTS
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_1_2_TextChanged(object sender, EventArgs e)
+        {
+            textBox3_2_1_2.Text = ($"Должно быть обеспечено информационно - техническое сопряжение комплекса {textBox3_1_2.Text} со следующими радиоэлектронными средствами и корабельными системами заказа проекта  < >: "+ Environment.NewLine+ "< Список > ");
+        }
     }
 }
