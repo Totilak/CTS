@@ -32,6 +32,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.textBox1_2 = new System.Windows.Forms.TextBox();
             this.label1_7_4 = new System.Windows.Forms.Label();
             this.comboBox1_7_3 = new System.Windows.Forms.ComboBox();
             this.label1_7_3 = new System.Windows.Forms.Label();
@@ -113,7 +114,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.редактированиеТехническогоЗаданияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.textBox1_2 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -180,6 +180,15 @@
             this.groupBox8.TabIndex = 4;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "1 НАИМЕНОВАНИЕ РАБОТЫ, ОСНОВАНИЕ ДЛЯ ВЫПОЛНЕНИЯ, ИСПОЛНИТЕЛЬ";
+            // 
+            // textBox1_2
+            // 
+            this.textBox1_2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox1_2.Location = new System.Drawing.Point(49, 93);
+            this.textBox1_2.Name = "textBox1_2";
+            this.textBox1_2.Size = new System.Drawing.Size(991, 29);
+            this.textBox1_2.TabIndex = 22;
+            this.textBox1_2.Text = "1.2 <Если поле не ипользуется, оставить пустым>";
             // 
             // label1_7_4
             // 
@@ -326,6 +335,7 @@
             this.label1_3.Size = new System.Drawing.Size(336, 21);
             this.label1_3.TabIndex = 5;
             this.label1_3.Text = "1.3 Основания для выполнения работы: ";
+            this.label1_3.Click += new System.EventHandler(this.label1_3_Click);
             // 
             // textBox1_1
             // 
@@ -1047,15 +1057,6 @@
             this.редактированиеТехническогоЗаданияToolStripMenuItem.Size = new System.Drawing.Size(428, 34);
             this.редактированиеТехническогоЗаданияToolStripMenuItem.Text = "Редактирование технического задания";
             this.редактированиеТехническогоЗаданияToolStripMenuItem.ToolTipText = "Название формы";
-            // 
-            // textBox1_2
-            // 
-            this.textBox1_2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1_2.Location = new System.Drawing.Point(49, 93);
-            this.textBox1_2.Name = "textBox1_2";
-            this.textBox1_2.Size = new System.Drawing.Size(991, 29);
-            this.textBox1_2.TabIndex = 22;
-            this.textBox1_2.Text = "1.2 <Если поле не ипользуется, оставить пустым>";
             // 
             // TSEditor
             // 

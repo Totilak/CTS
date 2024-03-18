@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.созданиеТЗToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.добавлениеВБДToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.создатьНовыйТЗToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.добавлениеВБДToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -64,18 +64,19 @@
             this.созданиеТЗToolStripMenuItem.Size = new System.Drawing.Size(152, 34);
             this.созданиеТЗToolStripMenuItem.Text = "Создание ТЗ";
             // 
-            // добавлениеВБДToolStripMenuItem
-            // 
-            this.добавлениеВБДToolStripMenuItem.Name = "добавлениеВБДToolStripMenuItem";
-            this.добавлениеВБДToolStripMenuItem.Size = new System.Drawing.Size(204, 34);
-            this.добавлениеВБДToolStripMenuItem.Text = "Добавление в БД";
-            // 
             // создатьНовыйТЗToolStripMenuItem
             // 
             this.создатьНовыйТЗToolStripMenuItem.Name = "создатьНовыйТЗToolStripMenuItem";
             this.создатьНовыйТЗToolStripMenuItem.Size = new System.Drawing.Size(272, 34);
             this.создатьНовыйТЗToolStripMenuItem.Text = "Создать новый ТЗ";
             this.создатьНовыйТЗToolStripMenuItem.Click += new System.EventHandler(this.создатьНовыйТЗToolStripMenuItem_Click);
+            // 
+            // добавлениеВБДToolStripMenuItem
+            // 
+            this.добавлениеВБДToolStripMenuItem.Name = "добавлениеВБДToolStripMenuItem";
+            this.добавлениеВБДToolStripMenuItem.Size = new System.Drawing.Size(204, 34);
+            this.добавлениеВБДToolStripMenuItem.Text = "Добавление в БД";
+            this.добавлениеВБДToolStripMenuItem.Click += new System.EventHandler(this.добавлениеВБДToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 

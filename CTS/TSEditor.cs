@@ -88,5 +88,10 @@ namespace CTS
         {
 
         }
+
+        private void label1_3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

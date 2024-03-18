@@ -66,5 +66,10 @@ namespace CTS
                 SendMessage(Handle, WM_SYSCOMMAND, SC_SIZE + 8, 0);
             }
         }
+
+        private void добавлениеВБДToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
