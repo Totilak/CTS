@@ -71,13 +71,6 @@
             this.создатьНовыйТЗToolStripMenuItem.Text = "Создать новый ТЗ";
             this.создатьНовыйТЗToolStripMenuItem.Click += new System.EventHandler(this.создатьНовыйТЗToolStripMenuItem_Click);
             // 
-            // добавлениеВБДToolStripMenuItem
-            // 
-            this.добавлениеВБДToolStripMenuItem.Name = "добавлениеВБДToolStripMenuItem";
-            this.добавлениеВБДToolStripMenuItem.Size = new System.Drawing.Size(204, 34);
-            this.добавлениеВБДToolStripMenuItem.Text = "Добавление в БД";
-            this.добавлениеВБДToolStripMenuItem.Click += new System.EventHandler(this.добавлениеВБДToolStripMenuItem_Click);
-            // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
@@ -127,9 +120,9 @@
             this.label2.Location = new System.Drawing.Point(18, 39);
             this.label2.MaximumSize = new System.Drawing.Size(540, 550);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(277, 25);
+            this.label2.Size = new System.Drawing.Size(283, 25);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Подключение: стабильное\r\n";
+            this.label2.Text = "Подключение: стабильное.\r\n";
             // 
             // Form1
             // 
